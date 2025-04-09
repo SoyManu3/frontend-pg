@@ -48,7 +48,7 @@ jobs:
 
       - name: docker push
         run: docker push ${{ secrets.DOCKER_USER}}/${{secrets.MODEL_NAME}}:${{github.sha}}
-       
+        
 
       
          
